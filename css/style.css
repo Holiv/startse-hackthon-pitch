@@ -98,7 +98,7 @@ body{
     border-bottom: 1px solid var(--hover-color);
 }
 
-#left-section_main h3{
+#left-section_main h4{
     text-transform: uppercase;
     color: var(--primary-color);
     font-size: 0.8rem;
@@ -188,6 +188,24 @@ body{
 .section-title_even h3{
     color: var(--primary-color);
     border-bottom: 1px solid var(--primary-color);
+}
+
+.inner-container h3:nth-child(2){
+    text-align: center;
+    line-height: 100%;
+    width: fit-content;
+    align-self: center;
+    color: var(--primary-color);
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    padding: 5px;
+    background-color: var(--hover-color);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+
+.inner-container h3:nth-child(2):hover{
+    box-shadow: 8px 8px 8px;
 }
 
 .section-content, .section-content_even{
@@ -290,4 +308,74 @@ body{
     text-align: center;
     font-weight: 600;
     letter-spacing: 0.1rem;
+}
+
+.section-container{
+    margin-top: 3vh;
+    align-self: center;
+    width: 95%;
+    display: flex;
+    gap: 10px;
+}
+
+.section-container_img{
+    width: 50%;
+}
+
+.section-container_img img{
+    width: 100%;
+    height: auto;
+}
+
+.section-container_text{
+    width: 50%;
+    text-align: justify;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+.group{
+    width: 95%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.integrant{
+    flex: 1 1 300px;
+    min-width: 250px;
+    text-align: center;
+    color: var(--hover-color);
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.integrant h5{
+    width: fit-content;
+    font-weight: 300;
+}
+
+.integrant a{
+    margin-top: 5px;
+    font-size: 0.8rem;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+#group-message{
+    width: 50%;
+    align-self: center;
+    margin-top: 20vh;
+    color: var(--primary-color);
+    text-align: justify;
+    background-color: var(--secondary-color);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#group-message h2{
+    letter-spacing: 0.2rem;
 }
